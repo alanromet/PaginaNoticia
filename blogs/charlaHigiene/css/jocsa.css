@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Estilos al header */
+header{
+    background: #47cfac;
+}
+header nav{
+    margin-right: 40px;
+    text-align:right;
+    margin-right: 200px;
+}
+header nav a{
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 0px 50px;
+}
+header nav a:hover{
+    color: #3baa8e;
+    transition: .5s;
+}
+.principal .logo a{
+    border: 0;
+}
+/* SECTION */
+.intro{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.intro a{
+    color: black;
+    text-decoration: none;
+    font-size: 50px;
+    margin-right: 200px;
+    border-bottom: 1px solid white;
+    border: 1px solid transparent;
+}
+/* INTRO */
+.contenedor{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.contenedor .foto{
+   width: 100%;
+   margin-bottom: 20px;
+}
+.contenedor .foto img{
+    width: 100%;
+}
+/* Descripcion */
+.contenedor h3{
+    font-size: 50px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.contenedor p{
+    text-align: justify;
+    font-size: 20px;
+    color: rgb(73, 73, 73);
+}
+/* Fotos */
+.fotos {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.fotos .fotoprueba{
+    width: 30%;
+    text-align: center;
+}
+.fotos .fotoprueba img{
+    width: 95%;
+    border-radius: 2px;
+    margin: 10px;
+}
+.fotos .grande{
+    width:100%;
+}
+/* Footer */
+
+footer .linea{
+    height: 70px;
+    background: #47cfac;
+    margin-top: 20px;
+}
+footer .datos{
+    background: #23282d;
+    text-align: center;
+}
+footer .datos h5{
+    color: white;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 20px;
+}

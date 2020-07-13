@@ -1,0 +1,41 @@
+@media screen and (max-width:1243px){
+    header nav {
+        text-align: center;
+        margin: 0;
+    }
+    header nav a{
+        font-size: 30px;
+    }
+    .intro .logo{
+        width: 60%;
+    }
+    .intro .logo img{
+        width: 50%;
+    }
+    .intro a{
+        font-size: 40px;
+        margin: 0px;
+        margin-right: 20px;
+    }
+    .contenedor .noticias{
+        width: 90%;
+        margin: auto;
+    }
+    .contenedor .noticias p{
+        text-align: justify;
+    }
+}
+@media screen and (max-width:500px){
+    .intro a{
+        font-size: 20px;
+    }
+    .intro a:hover{
+        text-decoration: underline;
+    }
+    .intro .logo{
+        width: 70%;
+    }
+    .noticias h3{
+        font-size: 20px;
+    }
+}

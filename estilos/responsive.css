@@ -1,0 +1,93 @@
+@media screen and (max-width:1243px){
+    header nav {
+        text-align: center;
+        margin: 0;
+    }
+    header nav a{
+        font-size: 20px;
+    }
+    .intro .logo{
+        width: 60%;
+    }
+    .intro .logo img{
+        width: 50%;
+    }
+    .intro a{
+        font-size: 40px;
+        margin: 0px;
+        margin-right: 20px;
+    }
+}
+@media screen and (max-width:1300px){
+    .contenedor{
+        width: 80%;
+    }
+    .contenedor .contenidoNoticias{
+        display: flow-root;
+        margin: auto;
+        width: 100%;
+    }
+    .contenedor .contenidoNoticias .foto{
+        margin: auto;
+        width: 100%;
+    }
+    .contenidoNoticias .foto img{
+        width: 100%;
+    }
+}
+@media screen and (max-width:1000px){
+    .contenedor{
+        width: 80%;
+    }
+    .contenedor .contenidoNoticias{
+        display: flow-root;
+        margin: auto;
+        width: 100%;
+    }
+    .contenedor .contenidoNoticias .foto{
+        margin: auto;
+        width: 100%;
+    }
+    .contenidoNoticias .foto img{
+        width: 100%;
+    }
+
+    /* Proyectos Colaborativos */
+    .contenedor .contenidoNoticias .descripcion h2{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .contenidoNoticias .descripcion p{
+        text-align: justify;
+    }
+    .contenidoNoticias .descripcion a{
+        text-align: center;
+    }
+    .maincontenedor .cajacontenedora{
+        display: flow-root;
+     }
+     .maincontenedor .cajacontenedora .contenido{
+         width: 100%;
+     }
+     .maincontenedor .cajacontenedora .contenido p{
+         text-align: justify;
+     }
+}
+@media screen and (max-width:500px){
+    header nav a{
+        font-size: 20px;
+    }
+    .intro a{
+        font-size: 25px;
+    }
+    .intro a:hover{
+        text-decoration: underline;
+        
+    }
+    .intro .logo{
+        width: 70%;
+    }
+    .contenedor .descripcion p{
+        font-size: 16px;
+    }
+}

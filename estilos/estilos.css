@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url('../img/franck-v-JjGXjESMxOY-unsplash.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* Estilos al header */
+header{
+    background: #47cfac;
+}
+header nav{
+    margin-right: 40px;
+    text-align:right;
+    margin-right: 200px;
+}
+header nav a{
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 0px 50px;
+}
+header nav a:hover{
+    color: #3baa8e;
+    transition: .5s;
+}
+/* SECTION */
+.principal{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.principal a{
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    margin-right: 100px;
+    border-bottom: 1px solid white;
+}
+/* INTRO */
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    text-align: center;
+    margin-top: 100px;
+}
+.intro .titulo h2{
+    font-size: 100px;
+    color: white;
+    /* font-style: italic; */
+}
+.intro .titulo p{
+    font-size: 42px;
+    color: white;
+    margin-bottom: 40px;
+}
+.boton a{
+    background: #47cfac;
+    padding: 20px 40px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.boton a:hover{
+    padding: 20px 100px;
+    transition: .3s;
+    border-radius: 40px;
+}
+
+
